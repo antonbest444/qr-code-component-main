@@ -1,3 +1,29 @@
-body {
+body,
+html {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
   background-color: hsl(220, 15%, 55%);
+  margin: 0;
+}
+
+.qr__container {
+  background-color: hsl(0, 0%, 100%);
+  width: 250px;
+  padding: 1em;
+  border-radius: 18px;
+  overflow: auto;
+}
+
+.qr__image {
+  border-radius: 18px;
+}
+
+.qr__maintext {
+  font-family: "Outfit";
+  font-weight: 700;
+}
+
+.qr__secondtext {
 }
