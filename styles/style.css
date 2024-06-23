@@ -23,7 +23,15 @@ html {
 .qr__maintext {
   font-family: "Outfit";
   font-weight: 700;
+  font-size: 1.1rem;
+  color: hsl(218, 44%, 22%);
 }
 
 .qr__secondtext {
+  font-size: 15px;
+  color: grey;
+}
+
+.qr__centertext {
+  text-align: center;
 }
